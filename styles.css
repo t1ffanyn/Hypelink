@@ -28,11 +28,13 @@ body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;color:#062a3a;background
 .card{flex:1;background:#ffffff;border:0;padding:28px;border-radius:18px;box-shadow:0 10px 30px rgba(2,18,28,0.35);color:#062a3a}
 .card h4{margin:0 0 8px;color:#062a3a;font-family:'Playfair Display', Georgia, serif}
 .card p{margin:0;color:rgba(6,42,58,0.8)}
+.card-ill{width:100%;max-width:140px;display:block;margin-bottom:14px}
 
 .levels{display:flex;gap:18px;margin-top:18px}
 .level{flex:1;background:#fff;padding:20px;border-radius:14px;box-shadow:0 8px 24px rgba(2,18,28,0.28);color:#062a3a}
 .level h4{margin:0 0 8px;color:#062a3a;font-family:'Playfair Display', Georgia, serif}
 .link-cta{display:inline-block;margin-top:12px;color:var(--brand);font-weight:700;text-decoration:none}
+.level img{width:100%;max-width:160px;display:block;margin-bottom:12px}
 
 .site-footer{border-top:1px solid rgba(255,255,255,0.04);padding:32px;text-align:center;color:rgba(6,42,58,0.6);background:transparent}
 

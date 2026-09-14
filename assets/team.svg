@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" width="200" height="120">
+  <g fill="#0b9b7f">
+    <circle cx="40" cy="40" r="18" />
+    <circle cx="100" cy="36" r="16" />
+    <circle cx="160" cy="40" r="18" />
+  </g>
+  <g stroke="#0b6b5a" stroke-width="2" fill="none">
+    <path d="M20 80 C40 70, 60 70, 80 80" />
+    <path d="M100 80 C120 70, 140 70, 160 80" />
+  </g>
+  <text x="100" y="110" text-anchor="middle" fill="#093" font-size="10" font-family="Inter, Arial">Team</text>
+</svg>
