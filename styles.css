@@ -2,36 +2,39 @@
 :root{--brand:#0b6b5a;--brand-2:#0b9b7f;--muted:#9ca3af;--bg:#013a63;--card:#071019}
 *{box-sizing:border-box}
 .body-bg{background-image:url('assets/pattern.svg');background-size:cover}
-body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;color:#e6eef0;background-image:linear-gradient(180deg,rgba(4,38,63,0.95),rgba(4,59,90,0.9)), url('assets/pattern.svg');background-size:cover,contain;background-blend-mode:overlay;margin:0;line-height:1.6}
+body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;color:#062a3a;background-image:linear-gradient(180deg,#013a63,#023a63 40%, #0b6b5a 100%), url('assets/pattern.svg');background-size:cover,contain;background-blend-mode:overlay;margin:0;line-height:1.6}
 .container{max-width:1100px;margin:0 auto;padding:28px}
-.site-header{background:transparent;padding:18px 0}
+.site-header{background:transparent;padding:20px 0}
+.header-inner{display:flex;align-items:center;justify-content:space-between}
 .brand{margin:0;padding:0;display:inline-block;color:var(--brand);font-weight:700;font-size:20px;letter-spacing:0.4px}
-.nav{float:right}
-.nav a{margin-left:20px;color:rgba(230,238,240,0.9);text-decoration:none;font-weight:600}
+.nav{display:flex;gap:18px;align-items:center}
+.nav a{color:rgba(255,255,255,0.92);text-decoration:none;font-weight:600;padding:8px 10px;border-radius:8px}
+.nav a:hover{background:rgba(255,255,255,0.03)}
+.nav-cta{background:rgba(255,255,255,0.06);padding:10px 14px}
 .hero{padding:56px 0}
 .hero-grid{display:grid;grid-template-columns:1fr 560px;gap:36px;align-items:center}
-.hero-copy h2{font-size:30px;margin:0;color:#e7f7f3;line-height:1.15}
-.lead{color:rgba(230,238,240,0.85);margin-top:12px;font-size:16px}
+.hero-copy h2{font-family:'Playfair Display', Georgia, serif;font-size:44px;margin:0;color:#fff;line-height:1.08}
+.lead{color:rgba(255,255,255,0.92);margin-top:12px;font-size:17px;max-width:56ch}
 .hero-ctas{margin-top:20px}
-.btn{display:inline-block;padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:700}
-.btn.primary{background:linear-gradient(90deg,var(--brand),var(--brand-2));color:#fff}
-.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.08);color:rgba(230,238,240,0.95);margin-left:12px}
+.btn{display:inline-block;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:700}
+.btn.primary{background:linear-gradient(90deg,var(--brand),var(--brand-2));color:#fff;box-shadow:0 8px 30px rgba(11,107,90,0.18)}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.08);color:rgba(255,255,255,0.95);margin-left:12px}
 .small{color:var(--muted);font-size:13px;margin-top:12px}
 .hero-visual{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:24px;border-radius:12px;position:relative;overflow:hidden}
 .hero-visual img.decor{position:absolute;right:8px;bottom:8px;max-width:72%;opacity:0.36;transform:translateZ(0);filter:none}
 
 .section{padding:48px 0;background:transparent}
 .cards{display:flex;gap:18px}
-.card{flex:1;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.04);padding:22px;border-radius:12px}
-.card h4{margin:0 0 8px;color:#eaf9f2}
-.card p{margin:0;color:rgba(230,238,240,0.8)}
+.card{flex:1;background:#ffffff;border:0;padding:28px;border-radius:18px;box-shadow:0 10px 30px rgba(2,18,28,0.35);color:#062a3a}
+.card h4{margin:0 0 8px;color:#062a3a;font-family:'Playfair Display', Georgia, serif}
+.card p{margin:0;color:rgba(6,42,58,0.8)}
 
 .levels{display:flex;gap:18px;margin-top:18px}
-.level{flex:1;background:linear-gradient(180deg,rgba(255,255,255,0.01),transparent);padding:18px;border-radius:10px;border:1px solid rgba(255,255,255,0.03)}
-.level h4{margin:0 0 8px;color:#eaf9f2}
+.level{flex:1;background:#fff;padding:20px;border-radius:14px;box-shadow:0 8px 24px rgba(2,18,28,0.28);color:#062a3a}
+.level h4{margin:0 0 8px;color:#062a3a;font-family:'Playfair Display', Georgia, serif}
 .link-cta{display:inline-block;margin-top:12px;color:var(--brand);font-weight:700;text-decoration:none}
 
-.site-footer{border-top:1px solid rgba(255,255,255,0.03);padding:22px;text-align:center;color:var(--muted);background:transparent}
+.site-footer{border-top:1px solid rgba(255,255,255,0.04);padding:32px;text-align:center;color:rgba(6,42,58,0.6);background:transparent}
 
 /* SVG styles and animations */
 #infrastructure{width:100%;height:100%}
