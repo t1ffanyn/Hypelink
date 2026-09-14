@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360">
+  <defs>
+    <linearGradient id="lg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0b6b5a"/>
+      <stop offset="100%" stop-color="#0b9b7f"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="none" />
+  <g transform="translate(40,20)" stroke="url(#lg)" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M0 40 L160 40 L160 120 L320 120 L320 200 L480 200 L480 280" />
+  </g>
+  <g transform="translate(40,20)" fill="#fff" stroke="#0b6b5a" stroke-width="2">
+    <g transform="translate(0,40)"><circle r="26" fill="url(#lg)" /><text x="0" y="6" text-anchor="middle" font-size="10" fill="#fff">DATA</text></g>
+    <g transform="translate(160,40)"><circle r="20" fill="url(#lg)" /><text x="0" y="6" text-anchor="middle" font-size="9" fill="#fff">AI</text></g>
+    <g transform="translate(160,120)"><circle r="20" fill="url(#lg)" /><text x="0" y="6" text-anchor="middle" font-size="9" fill="#fff">SALES</text></g>
+    <g transform="translate(320,120)"><circle r="20" fill="url(#lg)" /><text x="0" y="6" text-anchor="middle" font-size="9" fill="#fff">RECRUIT</text></g>
+    <g transform="translate(320,200)"><circle r="20" fill="url(#lg)" /><text x="0" y="6" text-anchor="middle" font-size="9" fill="#fff">AUTO</text></g>
+    <g transform="translate(480,200)"><circle r="26" fill="url(#lg)" /><text x="0" y="6" text-anchor="middle" font-size="9" fill="#fff">CRM</text></g>
+    <g transform="translate(480,280)"><circle r="30" fill="url(#lg)" /><text x="0" y="6" text-anchor="middle" font-size="8" fill="#fff">DISTRICT</text></g>
+  </g>
+</svg>
